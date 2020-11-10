@@ -1,8 +1,8 @@
 {
   "name": "swap-vsce",
-  "displayName": "Swahili programming language",
+  "displayName": "Swahili programming language - swap",
   "description": "Syntax highlighter for the Swahili programming language (swap)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "abdulbasit",
   "icon": "assets/icon.png",
   "repository": "https://github.com/ibnsultan/swap-vsce",
