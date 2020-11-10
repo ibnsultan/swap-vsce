@@ -1,0 +1,36 @@
+{
+  "name": "swap-vsce",
+  "displayName": "Swahili programming language",
+  "description": "Syntax highlighter for the Swahili programming language (swap)",
+  "version": "1.0.0",
+  "publisher": "abdulbasit",
+  "icon": "assets/icon.png",
+  "repository": "https://github.com/ibnsultan/swap-vsce",
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "swahili",
+        "aliases": [
+          "swahili programming language", "swap"
+        ],
+        "extensions": [
+          ".sw"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "swahili",
+        "scopeName": "source.sw",
+        "path": "./syntaxes/swahili.tmLanguage.json"
+      }
+    ]
+  }
+}
